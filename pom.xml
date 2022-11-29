@@ -54,6 +54,7 @@
                 <configuration>
                     <!--suppress UnresolvedMavenProperty -->
                     <forkCount>0</forkCount>
+                    <testFailureIgnore>true</testFailureIgnore>
                     <suiteXmlFiles>TestDocker.xml</suiteXmlFiles>
                 </configuration>
             </plugin>
