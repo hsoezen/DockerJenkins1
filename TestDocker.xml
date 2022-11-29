@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="docker">
+    
+    <test name="dockertest">
+        <classes>
+            <class name="docker.DockerStartStop"></class>
+            <class name="docker.Test2"></class>
+
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="docker" duration-ms="22377" started-at="2022-11-29T14:59:57 MEZ" finished-at="2022-11-29T15:00:19 MEZ">
+    <groups>
+    </groups>
+    <test name="dockertest" duration-ms="22377" started-at="2022-11-29T14:59:57 MEZ" finished-at="2022-11-29T15:00:19 MEZ">
+      <class name="docker.Test2">
+        <test-method status="PASS" signature="test1()[pri:0, instance:docker.Test2@7f13d6e]" name="test1" duration-ms="2332" started-at="2022-11-29T15:00:12 MEZ" finished-at="2022-11-29T15:00:14 MEZ">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- docker.Test2 -->
+      <class name="docker.DockerStartStop">
+        <test-method status="PASS" signature="startDockerGrid()[pri:0, instance:docker.DockerStartStop@71bbf57e]" name="startDockerGrid" is-config="true" duration-ms="15010" started-at="2022-11-29T14:59:57 MEZ" finished-at="2022-11-29T15:00:12 MEZ">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDockerGrid -->
+        <test-method status="PASS" signature="stopDockerGrid()[pri:0, instance:docker.DockerStartStop@71bbf57e]" name="stopDockerGrid" is-config="true" duration-ms="5011" started-at="2022-11-29T15:00:14 MEZ" finished-at="2022-11-29T15:00:19 MEZ">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDockerGrid -->
+      </class> <!-- docker.DockerStartStop -->
+    </test> <!-- dockertest -->
+  </suite> <!-- docker -->
+</testng-results>
